@@ -5,8 +5,9 @@ body{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -32,4 +33,12 @@ footer{
     color:white;
     padding-top: 50px;
     padding-bottom: 70px;
+}
+.onethird-width{
+    border-radius: 20px;
+    padding:20px;
+    width: 23%;
+    margin-left: 3%;
+    margin-right: 3%;
+    box-shadow: 10px 10px 10px grey ;
 }
